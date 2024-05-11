@@ -1,0 +1,209 @@
+.bomba {
+    background-color: #FAFAFA;
+}
+
+.your {
+
+    font-family: Rubik-medium;
+    font-size: 35px;
+    line-height: 50px;
+    text-align: center;
+    padding-top: 80px;
+}
+
+.choose {
+    font-family: Rubik-Regular;
+    font-size: 16px;
+    line-height: 30px;
+    color: #4F5665;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.priz {
+    width: 330px;
+    height: 760px;
+    background-color: #FFFFFF;
+    border-radius: 7px;
+    border: 2px solid #DDDDDD;
+
+}
+
+.src {
+    display: flex;
+    justify-content: center;
+    margin-top: 79px;
+
+}
+
+.free {
+    font-family: Rubik-medium;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    padding-top: 30px;
+}
+.re span{
+    font-family: Rubik-medium;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    padding-top: 130px;
+    color: black;
+}
+.mee span{
+    font-family: Rubik-medium;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    padding-top: 130px;
+    color: black;
+}
+.mee{
+    padding-top: 50px;
+    font-family: Rubik-Regular
+    ;
+    font-size: 25px;
+    text-align: center;
+    color: #4F5665;
+}
+.re{
+    padding-top: 90px;
+font-family: Rubik-Regular
+;
+font-size: 25px;
+text-align: center;
+color: #4F5665;
+}
+
+.solid {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-family: Rubik-regular;
+    font-size: 14px;
+    line-height: 30px;
+    padding-top: 10px;
+    color: #4F5665;
+
+}
+
+.solid i {
+    color: #2FAB73;
+}
+
+.end {
+    display: flex;
+    justify-content: center;
+    padding-top: 33px;
+}
+
+.ree {
+    font-family: Rubik-medium;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    padding-top: 130px;
+
+}
+
+.bt {
+    display: flex;
+    margin: 0 auto;
+    margin-top: 20px;
+
+    padding: 13px 62px;
+    border-radius: 50px;
+    color: #F53838;
+    border: solid #F53838;
+    background-color: white;
+    font-family: Rubik-bold;
+    font-family: 16px;
+    line-height: 18px;
+
+}
+
+.priz:hover {
+    border: 2px solid #F53838;
+    transition: .5s;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+}
+
+
+.bt:hover {
+    background-color: #F53838;
+    color: white;
+    transition: 0.5s;
+    border: 1px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+}
+.box-priz {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 60px;
+}
+@media (max-width:1050px) {
+    .box-priz{
+    display: block;
+
+}
+
+    .priz{
+    margin: 0 auto;
+margin-top: 20px;}
+.choose{
+font-size: 12px;
+line-height: 24px;
+}
+}
+@media (max-width:400px){
+.choose{
+font-size: 10px;
+}
+.your{
+font-size: 25px;
+line-height: 40px;}
+.priz{
+width: 270px;}
+
+}
+@media (max-width:350px){
+.choose{
+font-size: 8px;
+}
+}
+@media (max-width:300px){
+.priz{
+
+width:250px
+ ;}
+
+
+
+}
+.carousel {
+    height: 400px;
+    align-items: center;
+  }
+  .carousel .carousel-item {
+    width: 450px;
+    background: #ffffff;
+    padding: 70px;
+    height: auto;
+    text-align: center;
+    border-radius: 15px;
+  }
+  .img-area {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+  }
+  .img-area img {
+    width: 100%;
+  }
+  .testi p {
+    color: #262626;
+    font-size: 18px;
+    line-height: 1.9;
+  }
+  

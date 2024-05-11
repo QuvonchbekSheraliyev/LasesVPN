@@ -1,0 +1,65 @@
+.huge{
+font-family: Rubik-medium;
+font-size: 35px;
+line-height: 50px;
+text-align: center;
+padding-top: 150px;
+}
+.see{
+font-family: Rubik-Regular;
+font-size: 16px;
+line-height: 30px;
+color: #4F5665;
+text-align: center;
+padding-top: 20px;
+}
+.see span{
+font-family: Rubik-medium;
+font-size: 16px;
+line-height: 30px;
+}
+.maps{
+display: flex;
+justify-content: center;
+margin-top: 155px;
+}
+@media (max-width:1300px) {
+    .maps img{
+        display: flex;
+        justify-content: center;
+    width: 800px;
+    }
+}
+@media (max-width:900px){
+.maps img{
+width: 500px;
+}
+
+}
+@media (max-width:600px){
+.see{
+    font-size: 12px;
+    line-height: 14px;
+    
+}
+.maps img{
+width: 400px;
+}
+}
+@media (max-width:465px){
+    .huge{
+        font-family: Rubik-medium;
+        font-size: 25px;
+        line-height: 40px;
+        text-align: center;
+        padding-top: 150px;
+        }
+        .see{
+            font-size: 8px;
+            line-height: 12px;
+        }
+        .maps img{
+            margin-top: -80px;
+        width: 300px;
+        }
+}

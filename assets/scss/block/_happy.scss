@@ -1,0 +1,27 @@
+.by{
+font-family: Rubik-medium;
+font-size: 35px;
+line-height: 50px;
+text-align: center;
+padding-top: 50px;
+}
+
+.are{
+font-family: Rubik-Regular
+;
+font-size: 16px;
+line-height: 30px;
+text-align: center;
+padding-top: 20px;
+color: #4F5665;
+padding-bottom: 100px;
+}
+@media (max-width:1200px) {
+    .boxes{
+    display: none;}
+    .moma{
+    width: 400px;
+    height: 400px;
+    }
+    
+}
